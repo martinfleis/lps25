@@ -1,0 +1,5 @@
+name: lps25
+channels:
+  - conda-forge
+dependencies:
+  - python

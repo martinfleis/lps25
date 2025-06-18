@@ -1,0 +1,32 @@
+[project]
+name = "lps25"
+version = "0.1.0"
+description = "Urban Morphology with Python: City Structure as Predictor and Target"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["exactextract>=0.2.2,<0.3"]
+
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[tool.pixi.dependencies]
+# xvec = ">=0.4.0,<0.5"
+xproj = ">=0.2.0,<0.3"
+matplotlib = ">=3.10.3,<4"
+geopandas = ">=1.1.0,<2"
+dask = ">=2025.5.1,<2026"
+netcdf4 = ">=1.7.2,<2"
+zarr = ">=3.0.8,<4"
+fsspec = ">=2025.5.1,<2026"
+pooch = ">=1.8.2,<2"
+jupyter = ">=1.1.1,<2"
+rioxarray = ">=0.19.0,<0.20"
+joblib = ">=1.5.1,<2"
+pytest = "*"
+cfgrib = ">=0.9.15.0,<0.10"
+contextily = ">=1.6.2,<2"
+
+[tool.pixi.pypi-dependencies]
+xvec = { path = "/Users/martin/dev/xvec", editable = true }
