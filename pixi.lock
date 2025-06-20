@@ -358,7 +358,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/websocket-client-1.8.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/widgetsnbextension-4.0.14-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/wrapt-1.17.2-py313h536fd9c_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.6.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.3.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-0.4.1-hb711507_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-cursor-0.1.5-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-image-0.4.0-hb711507_2.conda
@@ -703,7 +703,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/websocket-client-1.8.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/widgetsnbextension-4.0.14-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/wrapt-1.17.2-py313h63b0ddb_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.6.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.3.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xerces-c-3.2.5-h197e74d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xorg-libxau-1.0.12-h6e16a3a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xorg-libxdmcp-1.1.5-h00291cd_0.conda
@@ -1028,7 +1028,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/websocket-client-1.8.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/widgetsnbextension-4.0.14-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/wrapt-1.17.2-py313h90d716c_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.6.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.3.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xerces-c-3.2.5-h92fc2f4_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxau-1.0.12-h5505292_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hd74edd7_0.conda
@@ -1361,7 +1361,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/win_inet_pton-1.1.0-pyh7428d3b_8.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/winpty-0.4.3-4.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/win-64/wrapt-1.17.2-py313ha7868ed_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.6.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.3.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/xerces-c-3.2.5-he0c23c2_2.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxau-1.0.12-h0e40799_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxdmcp-1.1.5-h0e40799_0.conda
@@ -13587,41 +13587,41 @@ packages:
   - pkg:pypi/wrapt?source=hash-mapping
   size: 62824
   timestamp: 1736870265811
-- conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.6.0-pyhd8ed1ab_0.conda
-  sha256: ba9bb5cc3a50540fd5e6ed028544786909ff3646558ddca70391da86f3f2cb6c
-  md5: eebef9eff9011b534117b5be22ca1b15
+- conda: https://conda.anaconda.org/conda-forge/noarch/xarray-2025.3.1-pyhd8ed1ab_0.conda
+  sha256: e2b175eaee8ac7eebd4bf136d03dc1586f0f4b23a3a3ce92852083e3c1bc4f81
+  md5: 976dd71c7eade7422717aa192afd1c71
   depends:
   - numpy >=1.24
   - packaging >=23.2
   - pandas >=2.1
   - python >=3.10
-  - typing_extensions
   constrains:
-  - distributed >=2023.11
-  - pint >=0.22
-  - matplotlib-base >=3.8
   - bottleneck >=1.3
-  - h5py >=3.8
-  - h5netcdf >=1.3
-  - nc-time-axis >=1.4
   - hdf5 >=1.12
-  - netcdf4 >=1.6.0
-  - sparse >=0.14
   - dask-core >=2023.11
-  - numba >=0.57
-  - scipy >=1.11
-  - zarr >=2.16
+  - seaborn-base >=0.13
   - cartopy >=0.22
   - flox >=0.7
-  - iris >=3.7
-  - seaborn-base >=0.13
+  - numba >=0.57
+  - h5netcdf >=1.3
+  - sparse >=0.14
+  - zarr >=2.16
+  - netcdf4 >=1.6.0
   - toolz >=0.12
+  - nc-time-axis >=1.4
   - cftime >=1.6
+  - matplotlib-base >=3.8
+  - scipy >=1.11
+  - distributed >=2023.11
+  - h5py >=3.8
+  - iris >=3.7
+  - pint >=0.22
   license: Apache-2.0
+  license_family: APACHE
   purls:
   - pkg:pypi/xarray?source=hash-mapping
-  size: 877334
-  timestamp: 1749677056538
+  size: 854249
+  timestamp: 1743444491374
 - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-0.4.1-hb711507_2.conda
   sha256: 416aa55d946ce4ab173ab338796564893a2f820e80e04e098ff00c25fb981263
   md5: 8637c3e5821654d0edf97e2b0404b443
@@ -14023,7 +14023,7 @@ packages:
   timestamp: 1749651873290
 - pypi: /Users/martin/dev/xvec
   name: xvec
-  version: 0.4.1.dev5+ga84b3e0
+  version: 0.4.1.dev8+g88dc1c7
   sha256: 19c2053d65b9d99881ae6fc623847c757abf8de504134b21641d9f1c829868e6
   requires_dist:
   - xarray>=2022.12.0

@@ -179,3 +179,5 @@ cython_debug/
 
 cache/
 data/era5.grib.5b7b6.idx
+*.zarr
+*.nc
