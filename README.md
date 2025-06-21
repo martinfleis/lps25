@@ -77,10 +77,9 @@ jupyter lab workshop.ipynb
 
 You can also install the necessary dependencies from PyPI using `pip`. The instructions can be used both locally and within Google Colab.
 
-**TODO: update this**
 
 ```bash
-pip install momepy scikit-learn numba osmnx geopy matplotlib mapclassify folium clustergram bokeh geoplanar neatnet
+pip install xvec cf-xarray exactextract geopandas matplotlib netcdf4 zarr fsspec pooch rioxarray joblib cfgrib contextily -U
 ```
 
 If you are working locally (not using Google Colab), you may want to install Jupyter Lab as well.
