@@ -181,3 +181,4 @@ cache/
 data/era5.grib.5b7b6.idx
 *.zarr
 *.nc
+data/GHS_UCDB_MTUC_GLOBE_R2024A.gpkg
