@@ -4,7 +4,25 @@ version = "0.1.0"
 description = "Deep dive to vector data cubes"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["exactextract>=0.2.2,<0.3", "xvec>=0.5.0,<0.6", "xproj>=0.2.0,<0.3", "cf-xarray>=0.10.6,<0.11"]
+dependencies = [
+    "exactextract>=0.2.2,<0.3",
+    "xvec>=0.5.0,<0.6",
+    "xproj>=0.2.0,<0.3",
+    "cf-xarray>=0.10.6,<0.11",
+    "matplotlib>=3.10.3",
+    "geopandas>=1.1.0",
+    "dask>=2025.5.1,<2026",
+    "netcdf4>=1.7.2,<2",
+    "zarr>=3.0.8,<4",
+    "fsspec>=2025.5.1,<2026",
+    "pooch>=1.8.2,<2",
+    "jupyter>=1.1.1,<2",
+    "rioxarray>=0.19.0,<0.20",
+    "joblib>=1.5.1,<2",
+    "pytest",
+    "cfgrib>=0.9.15.0,<0.10",
+    "contextily>=1.6.2,<2",
+    ]
 
 
 [tool.pixi.project]
