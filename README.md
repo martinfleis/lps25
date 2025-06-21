@@ -96,3 +96,6 @@ jupyter lab workshop.ipynb
 
 ## Data
 
+- ERA5 data from [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=download)
+- GHS UCBD data from [GHSL](https://human-settlement.emergency.copernicus.eu/download.php?ds=ucdb)
+- FUA data from [GHSL](https://human-settlement.emergency.copernicus.eu/download.php?ds=FUA)
