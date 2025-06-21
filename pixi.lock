@@ -382,7 +382,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxrender-0.9.12-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxtst-1.2.5-hb9d3cd8_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxxf86vm-1.1.6-hb9d3cd8_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xproj-0.2.0-pyh2cfa8aa_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/xyzservices-2025.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/yaml-0.2.5-h7f98852_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/zarr-3.0.8-pyhd8ed1ab_0.conda
@@ -394,7 +393,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
       - pypi: https://files.pythonhosted.org/packages/69/55/2cce57427624814f4c6db8b14147fb73b86ed82e808d3dfd36426195071c/cf_xarray-0.10.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d0/c3/f133edf2a7ea49cf54f40d1d5f1898ff62ab8b9f4cbca75a9c6e6394fdd8/exactextract-0.2.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: /Users/martin/dev/xvec
+      - pypi: https://files.pythonhosted.org/packages/38/ce/d80467ce4bef1042703c97e674b8775e34a6bb1828c5461ed3a02ec8cc27/xproj-0.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/64/a4/daf21c5756c1bcd865db89eafb1860aa1d70863ab8562d34a688043fdb98/xvec-0.5.0-py3-none-any.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/anyio-4.9.0-pyh29332c3_0.conda
@@ -707,7 +707,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xerces-c-3.2.5-h197e74d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xorg-libxau-1.0.12-h6e16a3a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/xorg-libxdmcp-1.1.5-h00291cd_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xproj-0.2.0-pyh2cfa8aa_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/xyzservices-2025.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/yaml-0.2.5-h0d85af4_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/zarr-3.0.8-pyhd8ed1ab_0.conda
@@ -719,7 +718,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h8210216_2.conda
       - pypi: https://files.pythonhosted.org/packages/69/55/2cce57427624814f4c6db8b14147fb73b86ed82e808d3dfd36426195071c/cf_xarray-0.10.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0b/18/db8d8214bdaee1693fe05ff472f9c0e702fed18bd010babe306e3d0761a3/exactextract-0.2.2-cp313-cp313-macosx_10_13_x86_64.whl
-      - pypi: /Users/martin/dev/xvec
+      - pypi: https://files.pythonhosted.org/packages/38/ce/d80467ce4bef1042703c97e674b8775e34a6bb1828c5461ed3a02ec8cc27/xproj-0.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/64/a4/daf21c5756c1bcd865db89eafb1860aa1d70863ab8562d34a688043fdb98/xvec-0.5.0-py3-none-any.whl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/anyio-4.9.0-pyh29332c3_0.conda
@@ -1032,7 +1032,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xerces-c-3.2.5-h92fc2f4_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxau-1.0.12-h5505292_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hd74edd7_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xproj-0.2.0-pyh2cfa8aa_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/xyzservices-2025.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/yaml-0.2.5-h3422bc3_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/zarr-3.0.8-pyhd8ed1ab_0.conda
@@ -1044,7 +1043,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-h6491c7d_2.conda
       - pypi: https://files.pythonhosted.org/packages/69/55/2cce57427624814f4c6db8b14147fb73b86ed82e808d3dfd36426195071c/cf_xarray-0.10.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b9/c1/a7757cc745dc10e73a6af7d55706e02746392672b201a7b2d9d241657512/exactextract-0.2.2-cp313-cp313-macosx_11_0_arm64.whl
-      - pypi: /Users/martin/dev/xvec
+      - pypi: https://files.pythonhosted.org/packages/38/ce/d80467ce4bef1042703c97e674b8775e34a6bb1828c5461ed3a02ec8cc27/xproj-0.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/64/a4/daf21c5756c1bcd865db89eafb1860aa1d70863ab8562d34a688043fdb98/xvec-0.5.0-py3-none-any.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
@@ -1365,7 +1365,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/xerces-c-3.2.5-he0c23c2_2.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxau-1.0.12-h0e40799_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libxdmcp-1.1.5-h0e40799_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/xproj-0.2.0-pyh2cfa8aa_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/xyzservices-2025.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/yaml-0.2.5-h8ffe710_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/zarr-3.0.8-pyhd8ed1ab_0.conda
@@ -1377,7 +1376,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-hbeecb71_2.conda
       - pypi: https://files.pythonhosted.org/packages/69/55/2cce57427624814f4c6db8b14147fb73b86ed82e808d3dfd36426195071c/cf_xarray-0.10.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2b/77/bcbfbc7b9cad4f294b09ecd954927df82e6e150ac4607dcecd64111bec9f/exactextract-0.2.2-cp313-cp313-win_amd64.whl
-      - pypi: /Users/martin/dev/xvec
+      - pypi: https://files.pythonhosted.org/packages/38/ce/d80467ce4bef1042703c97e674b8775e34a6bb1828c5461ed3a02ec8cc27/xproj-0.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/64/a4/daf21c5756c1bcd865db89eafb1860aa1d70863ab8562d34a688043fdb98/xvec-0.5.0-py3-none-any.whl
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
@@ -14009,22 +14009,19 @@ packages:
   purls: []
   size: 17819
   timestamp: 1734214575628
-- conda: https://conda.anaconda.org/conda-forge/noarch/xproj-0.2.0-pyh2cfa8aa_0.conda
-  sha256: 20b3beae2f6e7f6efa8fb3c359b095d3fbe4a858c730742b66f910ee272cbf5b
-  md5: 63fccababd7c61706773469c8344ec0d
-  depends:
-  - pyproj
-  - python >=3.10
+- pypi: https://files.pythonhosted.org/packages/38/ce/d80467ce4bef1042703c97e674b8775e34a6bb1828c5461ed3a02ec8cc27/xproj-0.2.0-py3-none-any.whl
+  name: xproj
+  version: 0.2.0
+  sha256: 2bd5a577f2476025cc99b685edb90b7b6ab52426ca0f70de6af774e026a86b0b
+  requires_dist:
   - xarray
-  license: Apache-2.0
-  purls:
-  - pkg:pypi/xproj?source=hash-mapping
-  size: 25508
-  timestamp: 1749651873290
-- pypi: /Users/martin/dev/xvec
+  - pyproj
+  - pytest ; extra == 'test'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/64/a4/daf21c5756c1bcd865db89eafb1860aa1d70863ab8562d34a688043fdb98/xvec-0.5.0-py3-none-any.whl
   name: xvec
-  version: 0.4.1.dev8+g88dc1c7
-  sha256: 19c2053d65b9d99881ae6fc623847c757abf8de504134b21641d9f1c829868e6
+  version: 0.5.0
+  sha256: 541bfaa43afd18848f64f9da8d7fb74a180dfac05bcc803b04fe0872f626b278
   requires_dist:
   - xarray>=2022.12.0
   - pyproj>=3.0.0
@@ -14035,7 +14032,6 @@ packages:
   - matplotlib ; extra == 'all'
   - geopandas ; extra == 'all'
   requires_python: '>=3.10'
-  editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/xyzservices-2025.4.0-pyhd8ed1ab_0.conda
   sha256: ac6d4d4133b1e0f69075158cdf00fccad20e29fc6cc45faa480cec37a84af6ae
   md5: 5663fa346821cd06dc1ece2c2600be2c
